@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: white;
+	font: 16px/28px 'Be Vietnam Pro', sans-serif; 
+	background-color: black;
+	font-weight: 700;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: .4s;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+button {
+	display: block;
+	border: none;
+	background-color: transparent;
+	font: inherit;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.Title-section {
+	font-size: 52px;
+	line-height: 64px;
+	letter-spacing: 0.6px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.btn-primary {
+	padding: 12px 24px;
+	font-weight: 600;
+	background-color: #762d2d;
+}
+
+.btn-primary:hover {
+	background-color:#a24242;
+}
+
+.btn-secondary {
+	padding: 12px 24px;
+	font-weight: 600;
+	color: #762d2d;
+	border: #522020 solid 1px;
+	line-height: 24px;
+}
+
+/* HEADER/////////////////////////////////////////// */
+#header {
+	padding: 40px 0 107px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 600;
+}
+
+header-logo__img {
+	width: 48px;
+	height: 48px;
+}
+
+.nav-main {
+	margin-left: auto;
+}
+
+.nav-main__list {
+	display: flex;
+	gap: 48px;
+	margin-right: 72px;
+}
+
+.nav-main__link:hover {
+	color: #762d2d ;
+}
+
+/* BANNER */
+#banner-section {
+	position: relative;
+	padding-bottom: 60px;
+	overflow: hidden;
+}
+
+.banner {
+	max-width: 550px;
+	padding: 45px;
+}
+
+.banner__header {
+	font-size: 52px;
+	line-height: 64px;
+	letter-spacing: 0.6px;
+}
+
+.banner__text {
+	margin: 32px 0 48px;
+	font-size: 17px;
+	opacity: .8;
+}
+
+.banner-links {
+	display: flex;
+	gap: 35px;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.banner-features__text {
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.banner-features__text:first-child {
+	margin-right: 40px;
+}
+
+.banner-features__text__strong {
+	margin-right: 16px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 52px;
+	vertical-align: sub;
+}
+
+.banner-img {
+	position: absolute;
+	width: 60%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-color: ;
+}
+
+.banner-img::before {
+	position: absolute;
+	content: '';
+	z-index: 1;
+	width: 76%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background: url(../img/kisspng-2018-ford-mustang-coupe-2018-ford-mustang-gt-premi-third-generation-ford-mustang-5b1dd219884808.png) no-repeat;
+}
+.banner-img::after {
+	position: absolute;
+	content: '';
+	width: 60%;
+	height: 90%;
+	top: 0;
+	right: 0;
+	background-color: gray;
+	opacity: .2;
+}
+
+/* RENT */
+#rent-section {
+	padding: 120px 0 120px;
+}
+
+.rent-wrap {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 32px;
+}
+
+.rent {
+	position: relative;
+	height: 524px;
+	background: url(../img/17735056575949.59b4190e130ad.jpg) 50%/cover no-repeat;
+}
+
+.rent:nth-child(2) {
+	background-image: url(../img/2021-bmw-m4-exterior-13.jpg);
+}
+.rent:nth-child(3) {
+	background-image: url(../img/bd9ff488fd7e1e87e3281ed99deb47bf02.jpg);
+}
+.rent:nth-child(4) {
+	background-image: url(../img/f5e9ae2716eac1a17c0db2b5bae7e481.jpg);
+}
+.rent__name {
+	position: absolute;
+	top: 48px;
+	left: 48px;
+	font-size: 24px;
+}
+.rent__link {
+	position: absolute;
+	left: 389px;
+	bottom: 48px;
+	right: 90px;
+}
